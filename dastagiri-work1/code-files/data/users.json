@@ -1,0 +1,146 @@
+{
+    "users": {
+        "admin@budget.com": {
+            "username": "Main Administrator",
+            "email": "admin@budget.com",
+            "hashed_password": "a319e3bea24244c06d0ab0725789f0002a97dffeb1bbd6e9e18545e1f2446bb7",
+            "role": "admin",
+            "created_at": "2025-11-19T15:01:53.614426"
+        },
+        "test@admin.com": {
+            "username": "Test Admin",
+            "email": "test@admin.com",
+            "hashed_password": "3e5b67c98db4ebc111005d4d83dc08d379e6b4f6a603f36f267b2b67d20057a2",
+            "role": "admin",
+            "created_at": "2025-11-19T15:01:53.628852"
+        },
+        "super@admin.com": {
+            "username": "Super Admin",
+            "email": "super@admin.com",
+            "hashed_password": "441d9c9d279f5170efaf36b95d19177da9d88ff708a65eebbce5ebd051872a1b",
+            "role": "admin",
+            "created_at": "2025-11-19T15:01:53.640942"
+        },
+        "log11@gmail.com": {
+            "username": "log",
+            "email": "log11@gmail.com",
+            "hashed_password": "dd9154f8ae765bbfd6c5e5bf9345c813bd266ab48fab59593395f6fdd8eed107",
+            "role": "user",
+            "created_at": "2025-11-19T15:05:27.130054"
+        },
+        "giri777@gmail.com": {
+            "username": "Giri",
+            "email": "giri777@gmail.com",
+            "hashed_password": "dd9154f8ae765bbfd6c5e5bf9345c813bd266ab48fab59593395f6fdd8eed107",
+            "role": "user",
+            "created_at": "2025-11-19T15:28:35.051455"
+        },
+        "giri123@gmail.com": {
+            "username": "Dastagiri",
+            "email": "giri123@gmail.com",
+            "hashed_password": "dd9154f8ae765bbfd6c5e5bf9345c813bd266ab48fab59593395f6fdd8eed107",
+            "role": "user",
+            "created_at": "2025-11-21T14:05:02.577774"
+        }
+    },
+    "transactions": {
+        "admin@budget.com": [],
+        "test@admin.com": [],
+        "super@admin.com": [],
+        "log11@gmail.com": [
+            {
+                "description": "paid electric bill",
+                "amount": -1223.0,
+                "type": "expense",
+                "category": "Bills",
+                "notes": "",
+                "date": "2025-11-19",
+                "id": "3ce27941"
+            },
+            {
+                "description": "salaray from freelancing",
+                "amount": -15000.0,
+                "type": "expense",
+                "category": "Freelance",
+                "notes": "",
+                "date": "2025-11-19",
+                "id": "1c5ae763"
+            },
+            {
+                "description": "salary credited from freelancing",
+                "amount": 12000.0,
+                "type": "income",
+                "category": "Salary",
+                "notes": "",
+                "date": "2025-11-19",
+                "id": "41092940"
+            },
+            {
+                "description": "paid money for building rent",
+                "amount": -1200.0,
+                "type": "expense",
+                "category": "Bills",
+                "notes": "",
+                "date": "2025-11-19",
+                "id": "48b74018"
+            },
+            {
+                "description": "salary credited",
+                "amount": 50000.0,
+                "type": "income",
+                "category": "Salary",
+                "notes": "",
+                "date": "2025-11-19",
+                "id": "0548ede1"
+            },
+            {
+                "description": "bought a second hand washing machine",
+                "amount": -11050.0,
+                "type": "expense",
+                "category": "Other",
+                "notes": "",
+                "date": "2025-11-19",
+                "id": "ecbceab9"
+            },
+            {
+                "description": "Salary deposit",
+                "amount": 4500.0,
+                "type": "income",
+                "category": "Salary",
+                "notes": "",
+                "date": "2023-01-01",
+                "id": "13c4de2d"
+            }
+        ],
+        "giri123@gmail.com": []
+    },
+    "goals": {
+        "admin@budget.com": [],
+        "test@admin.com": [],
+        "super@admin.com": [],
+        "log11@gmail.com": [
+            {
+                "name": "i want to buy a bike by the end of next year",
+                "description": "",
+                "goal_type": "savings_goal",
+                "target_amount": 150000.0,
+                "current_savings": 0.0,
+                "target_date": "2026-12-31",
+                "created_at": "2025-11-19T19:08:10.139018",
+                "id": "b4064309",
+                "current_amount": 0.0,
+                "status": "active"
+            }
+        ],
+        "giri777@gmail.com": [],
+        "giri123@gmail.com": []
+    },
+    "forecasts": {
+        "admin@budget.com": [],
+        "test@admin.com": [],
+        "super@admin.com": [],
+        "log11@gmail.com": [],
+        "giri777@gmail.com": [],
+        "giri123@gmail.com": []
+    }
+}
